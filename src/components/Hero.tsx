@@ -15,6 +15,7 @@ export default function Hero() {
           <a href="#what-you-get" className="hover:text-brand-gold transition-colors">What You Get</a>
           <a href="#about" className="hover:text-brand-gold transition-colors">About</a>
           <a href="#how-it-works" className="hover:text-brand-gold transition-colors">How It Works</a>
+          <a href="#work" className="hover:text-brand-gold transition-colors">My Work</a>
           <a href="#faq" className="hover:text-brand-gold transition-colors">FAQ</a>
         </div>
         <a href="#order" className="btn-gold !px-5 !py-2.5 text-xs md:text-sm">

@@ -3,6 +3,7 @@ import PainSection from "./components/PainSection";
 import WhatYouGet from "./components/WhatYouGet";
 import HowItWorks from "./components/HowItWorks";
 import About from "./components/About";
+import WorkShowcase from "./components/WorkShowcase";
 // import Testimonials from "./components/Testimonials"; // hidden until real testimonials come in
 import FAQ from "./components/FAQ";
 import FinalCTA from "./components/FinalCTA";
@@ -17,6 +18,7 @@ export default function App() {
       <WhatYouGet />
       <HowItWorks />
       <About />
+      <WorkShowcase />
       {/* <Testimonials /> — re-enable once real testimonials are collected */}
       <FAQ />
       <FinalCTA />
