@@ -19,7 +19,7 @@ export default function Hero() {
           <a href="#faq" className="hover:text-brand-gold transition-colors">FAQ</a>
         </div>
         <a href="#order" className="btn-gold !px-5 !py-2.5 text-xs md:text-sm">
-          Redesign My Site
+          Let&apos;s Talk
         </a>
       </nav>
 
@@ -29,7 +29,7 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2 mb-6 px-4 py-1.5 rounded-full border border-brand-gold/30 bg-brand-gold/5">
             <span className="w-2 h-2 rounded-full bg-brand-gold animate-pulse" />
             <span className="text-xs md:text-sm font-medium text-brand-gold uppercase tracking-widest">
-              Only 8 Spots Left This Month
+              Custom Solutions That Actually Convert
             </span>
           </div>
 
@@ -39,31 +39,31 @@ export default function Hero() {
             <span className="text-brand-red">Costing You</span> Money.
           </h1>
 
-          <p className="text-lg md:text-2xl text-gray-300 font-medium mb-2 max-w-3xl mx-auto">
-            Modern Redesign. <span className="text-brand-gold font-bold">24 Hours.</span> <span className="text-white font-bold">$99.</span>
+          <p className="text-lg md:text-2xl text-gray-300 font-medium mb-2 max-w-3xl mx-auto text-balance">
+            Websites. CRMs. Automations. <span className="text-brand-gold font-bold">Built to Scale.</span>
           </p>
-          <p className="text-sm md:text-base text-gray-500 mb-10 max-w-2xl mx-auto">
-            Built for local business owners who refuse to lose clients to a bad website.
+          <p className="text-sm md:text-base text-gray-500 mb-10 max-w-2xl mx-auto text-pretty">
+            For ambitious business owners who want more than a pretty website. You want a competitive edge.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href="#order" className="btn-primary group">
-              Order Your Redesign
+              Schedule a Discovery Call
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </a>
             <a href="#what-you-get" className="btn-outline">
-              See What You Get
+              See What I Build
             </a>
           </div>
 
           <div className="mt-12 flex items-center justify-center gap-6 text-xs md:text-sm text-gray-500">
             <span className="flex items-center gap-2">
-              <span className="text-brand-gold">✓</span> Canadian-Built
+              <span className="text-brand-gold">&#10003;</span> Canadian-Built
             </span>
-            <span>•</span>
-            <span>24hr Turnaround</span>
-            <span className="hidden md:inline">•</span>
-            <span className="hidden md:inline">1 Free Revision</span>
+            <span>&#8226;</span>
+            <span>Custom-Tailored</span>
+            <span className="hidden md:inline">&#8226;</span>
+            <span className="hidden md:inline">Full-Stack Solutions</span>
           </div>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import { Zap, ArrowRight, CheckCircle2, Loader2 } from "lucide-react";
+import { ArrowRight, CheckCircle2, Loader2 } from "lucide-react";
 import { useForm, ValidationError } from "@formspree/react";
 
 const inputClass =
@@ -22,22 +22,14 @@ export default function FinalCTA() {
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(192,57,43,0.25),_transparent_70%)]" />
 
       <div className="relative max-w-3xl mx-auto text-center">
-        <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full bg-brand-red/20 border border-brand-red/40">
-          <Zap className="w-4 h-4 text-brand-gold" />
-          <span className="text-xs md:text-sm font-bold uppercase tracking-widest text-brand-gold">
-            Limited spots this month — only 8 remaining
-          </span>
-        </div>
-
-        <h2 className="text-4xl sm:text-5xl md:text-7xl font-extrabold uppercase leading-[0.95] mb-6">
-          Stop Losing Clients to a
+        <h2 className="text-4xl sm:text-5xl md:text-7xl font-extrabold uppercase leading-[0.95] mb-6 text-balance">
+          Ready to Build Your
           <br />
-          <span className="text-brand-red">Bad Website.</span>
+          <span className="text-brand-gold">Competitive Edge?</span>
         </h2>
 
-        <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
-          24 hours from now, your business could have a website that actually works. Or you can keep losing money.
-          <span className="text-brand-gold font-bold"> Your call.</span>
+        <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto text-pretty">
+          Every custom solution starts with understanding your unique business. Let&apos;s schedule a call to explore what&apos;s possible.
         </p>
 
         {state.succeeded ? (
@@ -52,7 +44,7 @@ export default function FinalCTA() {
               Request Received.
             </h3>
             <p className="text-gray-300 text-base md:text-lg max-w-md mx-auto">
-              I've got your details. Expect a reply at your email within a few hours — then we get to work.
+              I&apos;ve got your details. I&apos;ll reach out within 24 hours to schedule our discovery call.
             </p>
             <p className="text-gray-500 text-sm mt-6">
               Need me sooner? Email{" "}
@@ -74,7 +66,7 @@ export default function FinalCTA() {
             <input
               type="hidden"
               name="_subject"
-              value="New Website Redesign Lead — nicholasturner.ca"
+              value="New Discovery Call Request — nicholasturner.ca"
             />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -140,10 +132,10 @@ export default function FinalCTA() {
 
             <div>
               <label htmlFor="website" className={labelClass}>
-                Current Website URL
+                Current Website URL{" "}
+                <span className="text-gray-600 normal-case font-medium">(if you have one)</span>
               </label>
               <input
-                required
                 id="website"
                 type="url"
                 name="website"
@@ -160,14 +152,14 @@ export default function FinalCTA() {
 
             <div>
               <label htmlFor="details" className={labelClass}>
-                What do you want fixed?{" "}
+                What are you looking to build?{" "}
                 <span className="text-gray-600 normal-case font-medium">(optional)</span>
               </label>
               <textarea
                 id="details"
                 name="details"
                 rows={3}
-                placeholder="Tell me what's not working — slow, outdated, no mobile version, etc."
+                placeholder="New website, CRM, automations, lead funnel — tell me what you're thinking."
                 className={`${inputClass} resize-none`}
               />
               <ValidationError
@@ -190,7 +182,7 @@ export default function FinalCTA() {
                 </>
               ) : (
                 <>
-                  Redesign My Site
+                  Schedule My Discovery Call
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </>
               )}
@@ -202,7 +194,7 @@ export default function FinalCTA() {
             />
 
             <p className="text-center text-xs text-gray-500 pt-2">
-              🔒 Your info stays private · 1 free revision · Live in 24 hours
+              Your information is secure. I&apos;ll reach out within 24 hours.
             </p>
             <p className="text-center text-xs text-gray-500">
               Questions first? Email{" "}

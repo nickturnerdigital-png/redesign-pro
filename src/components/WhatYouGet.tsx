@@ -1,12 +1,12 @@
-import { Check } from "lucide-react";
+import { Check, ArrowRight } from "lucide-react";
 
 const features = [
-  { title: "Mobile-Responsive Design", desc: "Looks perfect on every phone, tablet, and desktop." },
-  { title: "Modern, Clean Layout", desc: "Built to  2026 standards." },
-  { title: "Fast Loading (Sub-3s)", desc: "Google ranks fast sites higher. You rank higher." },
-  { title: "Professional Branding", desc: "Your logo, colors, and identity — all done right." },
-  { title: "SEO-Ready Structure", desc: "Show up when locals search. Built-in." },
-  { title: "Live in 24 Hours", desc: "Submit by morning. Live by tomorrow. Guaranteed." },
+  { title: "Custom Website Design", desc: "Built from scratch. No templates. Tailored to your brand and market." },
+  { title: "CRM & Lead Management", desc: "Capture, track, and convert leads with systems that work for you." },
+  { title: "Business Automations", desc: "Eliminate repetitive tasks. Let technology do the heavy lifting." },
+  { title: "Mobile-First Experience", desc: "Looks and works perfectly on every device your clients use." },
+  { title: "SEO-Ready Foundation", desc: "Built to rank. Show up when people search for what you do." },
+  { title: "Lightning Performance", desc: "Sub-3 second load times. Fast sites convert better." },
 ];
 
 export default function WhatYouGet() {
@@ -14,9 +14,9 @@ export default function WhatYouGet() {
     <section id="what-you-get" className="section bg-brand-dark">
       <div className="container-narrow">
         <div className="text-center mb-16">
-          <p className="eyebrow mb-4">What You Get</p>
-          <h2 className="text-4xl md:text-6xl font-extrabold uppercase leading-tight">
-            Everything. <span className="text-brand-gold">Done For You.</span>
+          <p className="eyebrow mb-4">What I Build</p>
+          <h2 className="text-4xl md:text-6xl font-extrabold uppercase leading-tight text-balance">
+            Full-Stack Solutions. <span className="text-brand-gold">Built to Scale.</span>
           </h2>
         </div>
 
@@ -39,14 +39,18 @@ export default function WhatYouGet() {
           ))}
         </div>
 
-        {/* Price callout */}
-        <div className="bg-brand-red text-center p-8 md:p-10 rounded-md max-w-3xl mx-auto">
-          <p className="text-white font-heading font-extrabold text-3xl md:text-5xl uppercase tracking-tight mb-2">
-            $99 Flat
+        {/* CTA callout */}
+        <div className="bg-brand-black border border-brand-gold/30 text-center p-8 md:p-10 rounded-md max-w-3xl mx-auto">
+          <p className="text-white font-heading font-extrabold text-2xl md:text-3xl uppercase tracking-tight mb-3 text-balance">
+            Ready to Build Something Custom?
           </p>
-          <p className="text-white/90 text-base md:text-lg font-semibold">
-            No hidden fees. No subscriptions. No monthly nonsense.
+          <p className="text-gray-400 text-base md:text-lg mb-6">
+            Every project is different. Let&apos;s talk about what you need.
           </p>
+          <a href="#order" className="btn-gold group inline-flex">
+            Schedule a Call
+            <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+          </a>
         </div>
       </div>
     </section>
