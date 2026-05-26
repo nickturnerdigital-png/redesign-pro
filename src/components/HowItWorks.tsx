@@ -3,18 +3,18 @@ import { ArrowRight } from "lucide-react";
 const steps = [
   {
     num: "01",
-    title: "Submit",
-    desc: "Send me your current site URL and a quick form. Takes 90 seconds.",
+    title: "Discovery",
+    desc: "We talk. I learn your business, goals, and competition. This is where the real work begins.",
   },
   {
     num: "02",
-    title: "We Build",
-    desc: "My team redesigns your entire site in under 24 hours. No meetings.",
+    title: "Strategy & Build",
+    desc: "Custom solution designed specifically for your market. No templates. No shortcuts.",
   },
   {
     num: "03",
-    title: "Go Live",
-    desc: "Approve it. We deploy it. You start capturing more leads. Done.",
+    title: "Launch & Optimize",
+    desc: "Your system goes live. We monitor, refine, and make sure it performs.",
   },
 ];
 
@@ -24,10 +24,10 @@ export default function HowItWorks() {
       <div className="container-narrow">
         <div className="text-center mb-16">
           <p className="eyebrow mb-4">The Process</p>
-          <h2 className="text-4xl md:text-6xl font-extrabold uppercase leading-tight">
-            3 Steps. 24 Hours.
+          <h2 className="text-4xl md:text-6xl font-extrabold uppercase leading-tight text-balance">
+            A Process Built
             <br />
-            <span className="text-brand-gold">Done.</span>
+            <span className="text-brand-gold">For Results.</span>
           </h2>
         </div>
 
@@ -52,8 +52,8 @@ export default function HowItWorks() {
           ))}
         </div>
 
-        <p className="text-center mt-12 text-lg md:text-xl text-gray-400 italic">
-          No calls. No meetings. No delays. <span className="text-brand-gold not-italic font-bold">Just results.</span>
+        <p className="text-center mt-12 text-lg md:text-xl text-gray-400 italic text-pretty">
+          Every project starts with a conversation. <span className="text-brand-gold not-italic font-bold">That&apos;s where the magic happens.</span>
         </p>
       </div>
     </section>

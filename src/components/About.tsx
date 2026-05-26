@@ -4,23 +4,23 @@ export default function About() {
       <div className="container-narrow">
         <div className="text-center mb-14">
           <p className="eyebrow mb-4">Meet The Builder</p>
-          <h2 className="text-4xl md:text-6xl font-extrabold uppercase leading-tight">
-            I'm <span className="text-brand-gold">Nick.</span> I Build Sites
+          <h2 className="text-4xl md:text-6xl font-extrabold uppercase leading-tight text-balance">
+            I&apos;m <span className="text-brand-gold">Nick.</span> I Build Systems
             <br />
-            That Convert.
+            That Win.
           </h2>
         </div>
 
         {/* Copy */}
         <div className="max-w-3xl mx-auto space-y-5 text-gray-300 text-base md:text-lg leading-relaxed text-center">
           <p>
-           I got tired of watching local businesses lose money to websites that were built decades ago. Seeing business owners pay thousands to agencies and then waiting months for a mediocre site. That's broken.
+            I got tired of watching business owners get burned. Agencies charging thousands for mediocre work. Months of waiting. Cookie-cutter templates that don&apos;t convert. That&apos;s broken.
           </p>
           <p>
-            <span className="text-white font-bold">We do this differently. No hidden fees, no surprises, no long timelines, no bullsh*t.</span> My team and I get your site live in 24 hours for $99.
+            <span className="text-white font-bold">I do this differently.</span> I build custom websites, CRMs, and automations that actually move the needle for your business. Not pretty pixels. Real systems that capture leads, save time, and help you scale.
           </p>
           <p>
-            If your website is costing you clients, we'll fix it. Fast.
+            If you&apos;re serious about growth, let&apos;s talk.
           </p>
           <p className="pt-2 text-brand-gold font-bold not-italic">
             — Nick Turner, <a href="https://nicholasturner.ca" className="underline decoration-brand-gold/40 hover:decoration-brand-gold">nicholasturner.ca</a>
@@ -45,22 +45,22 @@ export default function About() {
           </p>
         </div>
 
-        {/* Stat blocks */}
+        {/* Value props instead of stats */}
         <div className="grid grid-cols-3 gap-4 md:gap-6 mt-14 max-w-3xl mx-auto">
           {[
-            { num: "$99", label: "Flat Price" },
-            { num: "24hr", label: "Turnaround" },
-            { num: "1", label: "Free Revision" },
+            { label: "Custom-Tailored", desc: "Every Solution" },
+            { label: "Full-Stack", desc: "Web + CRM + Automation" },
+            { label: "Direct Access", desc: "Work With Me" },
           ].map((s) => (
             <div
               key={s.label}
               className="bg-brand-black border border-white/5 p-5 md:p-6 rounded-md text-center"
             >
-              <div className="text-3xl md:text-5xl font-heading font-extrabold text-brand-gold mb-1">
-                {s.num}
+              <div className="text-lg md:text-xl font-heading font-extrabold text-brand-gold mb-1">
+                {s.label}
               </div>
               <div className="text-xs md:text-sm text-gray-400 uppercase tracking-wide font-semibold">
-                {s.label}
+                {s.desc}
               </div>
             </div>
           ))}

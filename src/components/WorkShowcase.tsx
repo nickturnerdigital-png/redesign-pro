@@ -8,12 +8,11 @@ export default function WorkShowcase() {
       <div className="container-narrow">
         <div className="text-center mb-14">
           <p className="eyebrow mb-4">See It Live</p>
-          <h2 className="text-4xl md:text-6xl font-extrabold uppercase leading-tight mb-6">
-            See What You're <span className="text-brand-gold">Getting.</span>
+          <h2 className="text-4xl md:text-6xl font-extrabold uppercase leading-tight mb-6 text-balance">
+            See What&apos;s <span className="text-brand-gold">Possible.</span>
           </h2>
-          <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
-            Here's a live lead funnel I built from scratch. Modern, fast, built to convert. This is the standard.
-            <span className="text-white font-bold"> Your business is next.</span>
+          <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto text-pretty">
+            Here&apos;s an example of a straightforward, lead-focused landing page. Modern, fast, built to convert. This quality is the standard. 
           </p>
         </div>
 

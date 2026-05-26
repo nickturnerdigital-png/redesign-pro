@@ -3,24 +3,24 @@ import { Plus, Minus } from "lucide-react";
 
 const faqs = [
   {
-    q: "Do you handle my existing content?",
-    a: "Yes. We migrate all your current content — text, images, contact info — onto the new design. You don't lift a finger.",
+    q: "What types of projects do you take on?",
+    a: "Custom websites, CRM systems, lead funnels, and business automations. If it helps you capture more leads, save time, or scale your business — I build it.",
   },
   {
-    q: "What if I don't like the design?",
-    a: "One free revision round is included. We don't part ways until you're happy with it. Simple as that.",
+    q: "How does the process work?",
+    a: "Everything starts with a conversation. We discuss your business, goals, and challenges. From there, I put together a custom solution and timeline tailored to your needs.",
   },
   {
-    q: "How do you deliver in 24 hours?",
-    a: "We have a proven process and a team that executes. There's no meetings, no pointless back and forth, no delays. We know what works and we build it.",
+    q: "How much does a project cost?",
+    a: "Every project is different. Pricing depends on scope, complexity, and your specific requirements. We'll discuss all of this on our discovery call — no surprises.",
   },
   {
-    q: "Do I need to provide anything?",
-    a: "Just your current website URL and a 90-second form with your business details. That's it.",
+    q: "How long does a project take?",
+    a: "It depends on what you need. Some projects are done in days, others take weeks. We'll set clear expectations upfront so you always know what to expect.",
   },
   {
-    q: "Is $99 really the full price?",
-    a: "Yes. One payment. No surprises, no upsells, no monthly fees. Hosting and domain stay with you.",
+    q: "Do I work directly with you?",
+    a: "Yes. You're not handed off to a junior or a project manager. You work directly with me from start to finish.",
   },
 ];
 
@@ -33,7 +33,7 @@ export default function FAQ() {
         <div className="text-center mb-14">
           <p className="eyebrow mb-4">Questions</p>
           <h2 className="text-4xl md:text-6xl font-extrabold uppercase leading-tight">
-            Answered. <span className="text-brand-gold">No BS.</span>
+            Answered. <span className="text-brand-gold">Straight Up.</span>
           </h2>
         </div>
 

@@ -29,17 +29,17 @@ export default function StickyCTA() {
         <div className="bg-brand-black/95 backdrop-blur border-t border-brand-gold/30 px-4 py-3 flex items-center justify-between gap-3">
           <div className="leading-tight">
             <div className="text-xs text-gray-400 uppercase tracking-wide font-semibold">
-              Modern Redesign
+              Custom Solutions
             </div>
             <div className="text-white font-heading font-extrabold text-lg">
-              Live in <span className="text-brand-gold">24 Hours</span>
+              Built to <span className="text-brand-gold">Scale</span>
             </div>
           </div>
           <a
             href="#order"
             className="bg-brand-gold text-black font-heading font-extrabold uppercase tracking-wide px-5 py-3 rounded-md text-sm flex items-center gap-2 active:scale-95 transition-transform"
           >
-            Redesign My Site
+            Let&apos;s Talk
             <ArrowRight className="w-4 h-4" />
           </a>
         </div>
@@ -54,7 +54,7 @@ export default function StickyCTA() {
             : "opacity-0 translate-y-4 pointer-events-none"
         }`}
       >
-        Redesign My Site
+        Book a Call
         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
       </a>
     </>
