@@ -12,7 +12,7 @@ export default function WorkShowcase() {
             See What&apos;s <span className="text-brand-gold">Possible.</span>
           </h2>
           <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto text-pretty">
-            Here&apos;s an example of a simple, lead-focused landing page. Modern, fast, built to convert. This quality is the standard. 
+            Here&apos;s an example of a straightforward, lead-focused landing page. Modern, fast, built to convert. This quality is the standard. 
           </p>
         </div>
 
