@@ -137,9 +137,9 @@ export default function FinalCTA() {
               </label>
               <input
                 id="website"
-                type="url"
+                type="text"
                 name="website"
-                placeholder="https://yoursite.com"
+                placeholder="yoursite.com"
                 className={inputClass}
               />
               <ValidationError
