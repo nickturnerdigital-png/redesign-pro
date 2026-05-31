@@ -1,6 +1,6 @@
 import { ExternalLink, ArrowRight } from "lucide-react";
 
-const SITE_URL = "https://home-valuation-funnel.vercel.app/";
+const SITE_URL = "https://v0-pacific-crest-plumbing.vercel.app/";
 
 export default function WorkShowcase() {
   return (
@@ -32,7 +32,7 @@ export default function WorkShowcase() {
               <span className="w-3 h-3 rounded-full bg-gray-600" />
             </div>
             <div className="flex-1 bg-brand-black rounded px-3 py-1.5 text-xs text-gray-400 truncate text-center">
-              home-valuation-funnel.vercel.app
+              v0-pacific-crest-plumbing.vercel.app
             </div>
           </div>
 
